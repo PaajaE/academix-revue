@@ -1,0 +1,65 @@
+:root {
+  --main-color: #2a4f8d;
+  --main-text-color: #454545;
+  --background-grey: #f3f1f0;
+  --fs-title: 5rem;
+  --fs-title-tablet: 4rem;
+  --fs-menu: 2.1428rem;
+  --fs-menu-mobile: 3.667rem;
+  --fs-subtitle: 3.9286rem;
+  --fs-subtitle-mobile: 5rem;
+  --fs-text: 2.5rem;
+  --fs-text-mobile: 3.333rem;
+  --fs-heading: 2.8571rem;
+  --fs-heading-mobile: 3.333rem;
+  --w-36: 35.88%;
+  --padding-r-l: 8.714rem;
+  --padding-r-l-half: 4.357rem;
+  --padding-mobile-r-l: 4rem;
+  --padding-mobile-r-l-half: 2rem;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.6vw;
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--main-color);
+  font-size: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items {
+  width: 50%;
+  padding: 4rem;
+}
+
+.btn {
+  background-color: var(--main-color);
+  color: white;
+  padding: 1rem 4rem;
+  font-size: var(--fs-text);
+  font-weight: 400;
+  border-radius: 50px;
+  max-width: calc(0.65 * 100vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
