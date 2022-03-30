@@ -112,14 +112,14 @@ li {
 }
 
 .section-1-content h1 {
-  flex: 0 0 50%;
-  height: 50%;
+  flex: 0 0 45%;
+  height: 45%;
   width: 24.22vw;
 }
 
 .section-1-content-text {
-  flex: 0 0 50%;
-  height: 50%;
+  flex: 0 0 55%;
+  height: 55%;
   width: 34.4vw;
   display: flex;
   flex-direction: column;
