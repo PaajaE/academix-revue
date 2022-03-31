@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   preview.style.left = left + "px";
 
   maxLeft = left;
-  minLeft = left - computedWidth;
+  minLeft = left - computedWidth - clientWidth / 5;
 
   console.log("sectionPaddingRight", sectionPaddingRight);
   console.log("computedWidth", computedWidth);
