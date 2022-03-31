@@ -31,8 +31,8 @@
 
 @font-face {
   font-family: "Helvetica LT";
-  src: url("./assets/fonts/HelveticaLT.woff2") format("woff2"),
-    url("./assets/fonts/HelveticaLT.woff") format("woff");
+  src: url("./assets/fonts/HelveticaNeueCE-Roman.woff2") format("woff2"),
+    url("./assets/fonts/HelveticaNeueCE-Roman.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -129,6 +129,10 @@ li {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.section-1-content-text p {
+  font-family: "Publico Roman";
 }
 
 .preview {
