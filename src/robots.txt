@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /undefined/
+Disallow: /profile
+Disallow: /landing/
+Sitemap: https://www.academixrevue.cz/sitemap.xml
