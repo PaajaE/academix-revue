@@ -68,7 +68,7 @@ a.inverted {
 }
 
 .btn {
-  padding: 0.78125rem 4.427rem 0.8854rem;
+  padding: 0.78125rem 2.427rem 0.8854rem;
   font-size: var(--fs-href);
   /* font-weight: 400; */
   /* max-width: calc(0.65 * 100vw); */
@@ -79,6 +79,7 @@ a.inverted {
 }
 
 .btn.inverted {
+  padding: 0.78125rem 4.427rem 0.8854rem;
   background-color: var(--main-color);
   color: var(--inverted-color);
   border-color: var(--inverted-color);
@@ -242,4 +243,9 @@ li {
 
 .relative {
   position: relative;
+}
+
+.buttons {
+  width: 100%;
+  justify-content: space-between;
 }
