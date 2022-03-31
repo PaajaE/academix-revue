@@ -156,7 +156,7 @@ li {
 
 .preview-item img {
   height: auto;
-  width: 100%;
+  /* width: 100%; */
   box-shadow: 10px 13px 36px var(--grey-color);
 }
 

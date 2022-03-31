@@ -101,6 +101,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   maxLeft = left;
   minLeft = left - computedWidth;
+
+  console.log("sectionPaddingRight", sectionPaddingRight);
+  console.log("computedWidth", computedWidth);
+  console.log("left", left);
+  console.log("maxLeft", maxLeft);
+  console.log("minLeft", minLeft);
 });
 
 // function process_touchmove(event) {
