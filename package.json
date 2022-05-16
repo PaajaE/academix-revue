@@ -1,0 +1,24 @@
+{
+  "name": "academix-revue",
+  "version": "1.0.0",
+  "description": "Academix revue web",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaajaE/academix-revue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaajaE/academix-revue/issues"
+  },
+  "homepage": "https://github.com/PaajaE/academix-revue#readme"
+}

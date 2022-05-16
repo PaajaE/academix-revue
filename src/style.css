@@ -76,6 +76,7 @@ a.inverted {
   justify-content: center;
   align-items: center;
   border: 1px solid var(--main-color);
+  cursor: pointer;
 }
 
 .btn.inverted {
@@ -125,7 +126,7 @@ li {
 .section-1-content-text {
   flex: 0 0 55%;
   height: 55%;
-  width: 34.4vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -134,6 +135,7 @@ li {
 
 .section-1-content-text p {
   font-family: "Publico Roman";
+  width: 34.4vw;
 }
 
 .preview {
@@ -246,6 +248,7 @@ li {
 }
 
 .buttons {
+  position: relative;
   width: 100%;
   justify-content: space-between;
 }
