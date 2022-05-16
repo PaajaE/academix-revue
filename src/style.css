@@ -189,13 +189,22 @@ li {
   justify-content: flex-start;
 }
 
-.section-2-text-left {
+.section-2-text-left div,
+.section-2-text-right div {
   width: 33vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+.section-2-text-left {
   margin-right: 10.0925vw;
+}
+
+.section-2-text-left div,
+.section-2-text-right div {
+  margin-bottom: 0.5rem;
 }
 
 .footer {
